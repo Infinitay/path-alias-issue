@@ -5,9 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"works": "tsx discord-data/scripts/works.ts",
-		"fails": "tsx discord-data/scripts/fails.ts",
-		"works-workaround": "tsx discord-data/scripts/works-workaround.ts",
-		"works2": "npm run works-workaround"
+		"fails": "tsx discord-data/scripts/fails.ts"
 	},
 	"keywords": [],
 	"author": "",
