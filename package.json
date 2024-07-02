@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"works": "tsx discord-data/scripts/works.ts",
-		"fails": "tsx discord-data/scripts/fails.ts"
+		"fails": "tsx discord-data/scripts/fails.ts",
+		"fails-2": "tsx discord-data/scripts/fails-explicit-path.ts"
 	},
 	"keywords": [],
 	"author": "",

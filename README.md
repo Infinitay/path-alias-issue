@@ -8,6 +8,10 @@ I made this repo to reproduce an issue that I am having in my other project whil
 -   [discord-data/scripts/fails.ts](discord-data/scripts/fails.ts)
     -   Imports both a type and an enum
     -   Fails with `ERR_MODULE_NOT_FOUND`
+-   [discord-data/scripts/fails-explicit-path.ts](discord-data/scripts/fails-explicit-path.ts)
+    -   Imports both a type and an enum
+    -   Fails with `ERR_MODULE_NOT_FOUND`
+    -   The difference is that here I'm explicitly importing the relative path
 
 ## This re-created error's stacktrace:
 
