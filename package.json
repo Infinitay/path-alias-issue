@@ -1,17 +1,21 @@
 {
-  "name": "path-alias-issue",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^20.14.9",
-    "tsx": "^4.16.0",
-    "typescript": "^5.5.3"
-  }
+	"name": "path-alias-issue",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"works": "tsx discord-data/scripts/works.ts",
+		"fails": "tsx discord-data/scripts/fails.ts",
+		"works-workaround": "tsx discord-data/scripts/works-workaround.ts",
+		"works2": "npm run works-workaround"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^20.14.9",
+		"tsx": "^4.16.0",
+		"typescript": "^5.5.3"
+	}
 }
